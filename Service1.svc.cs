@@ -47,7 +47,7 @@ namespace MusaService
                 {
                     source = "agent",
                     resolvedQuery = "test params 1.23",
-                    speech = "",
+                    speech = "manoj",
                     action = "test_params",
                     parameters = new
                     {
