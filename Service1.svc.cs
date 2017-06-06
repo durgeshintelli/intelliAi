@@ -62,6 +62,7 @@ namespace MusaService
                         intentName = "test params"
                     }
                 },
+                 fulfillment=new { speech="chandan"},
                 status = new { code = 200, errorType = "success" }
             };
 
