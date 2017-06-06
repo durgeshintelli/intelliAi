@@ -54,7 +54,7 @@ namespace MusaService
         public Result Result { get; set; }
         public Status Status { get; set; }
         public string SessionId { get; set; }
-        public fulfillment fulfillment { get; set; }
+        public Fulfillment Fulfillment { get; set; }
         public bool IsError
         {
             get
@@ -79,11 +79,7 @@ namespace MusaService
         }
     }
     
-     public class fulfillment
-    {
-        public string speech { get; set; }
-    }
-
+    
     public class Result
     {
         String action;
