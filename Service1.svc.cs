@@ -3,24 +3,12 @@ using System.Collections;
 using System.Collections.Generic;
 using System.Configuration;
 using System.Linq;
-using System.Security.Cryptography;
-using System.ServiceModel.Activation;
 using System.Text;
 using System.Web;
 using System.Web.Services;
-using System.Data;
-using System.Data.SqlClient;
-using Catalog;
-using Catalog.WebArch;
 using System.IO;
-using System.Net.Mail;
-using System.Drawing.Drawing2D;
-using System.Drawing;
-using System.Drawing.Imaging;
 using System.ServiceModel.Web;
 using BusinessProcess.Datalayer;
-using BusinessProcess;
-using Catalog.Dataset;
 using System.Web.Script.Serialization;
 using iTextSharp.text;
 using iTextSharp.text.pdf;
@@ -47,9 +35,7 @@ namespace MusaService
 
        #endregion
 
-       
-
-        # region AI function
+# region AI function
 
         public AIResponse GetTestResponse()
         {
